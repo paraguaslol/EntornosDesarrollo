@@ -16,8 +16,9 @@ public static void main(String[]args){
 		temporal=temporal+mensajeCodificado.charAt(i+1)+mensajeCodificado.charAt(i);
 		
 	}	
-	mensajeCodificado=temporal;
+	
 	}
+	mensajeCodificado=temporal;
 	System.out.print(mensajeCodificado);
 }
 
